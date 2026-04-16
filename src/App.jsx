@@ -715,7 +715,7 @@ const ReelsCarousel = () => {
                   overflow: 'hidden'
                 }}>
                   <div style={{ width: '100%', height: '500px', background: '#050508', position: 'relative', overflow: 'hidden' }}>
-                    <iframe src={reel.url} frameBorder="0" allowFullScreen style={{ width: '100%', height: '100%', border: 'none' }} />
+                    <iframe src={reel.url} title={reel.title} frameBorder="0" allowFullScreen style={{ width: '100%', height: '100%', border: 'none' }} />
                   </div>
                   <div style={{ padding: '20px' }}>
                     <h3 style={{ fontSize: '1.3rem', marginBottom: '8px', color: '#ffffff' }}>{reel.title}</h3>
